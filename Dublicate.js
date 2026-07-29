@@ -11,6 +11,7 @@ for (let num of arr)
 // !means not so  condition is true only when  number does not exist.Then push() adds that number to unique array.
     if (!unique.includes(num))  // includes() checks whether num is already present in the unique array.
     {
+        // Add the current number to the unique array only when it is not already present.
         unique.push(num);
     }
 }
